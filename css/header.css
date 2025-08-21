@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'Determination';
+    src: url('../fonts/DeterminationMonoWebRegular-Z5oq.ttf') format('truetype')
+}
+
+.header{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 100vw;
+    border-bottom: 1px solid #FFFF02;
+}
+
+.header__nav{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header__item{
+    color: white;
+    font-size: 20px;
+    font-family: 'Determination', sans-serif;
+    text-decoration: none;
+}
+
+.header__item:hover{
+    color: #FFFF02;
+}
